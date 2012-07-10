@@ -1,12 +1,12 @@
 CGIT_VERSION = v0.9.0.3
 CGIT_SCRIPT_NAME = cgit.cgi
-CGIT_SCRIPT_PATH = /var/www/htdocs/cgit
+CGIT_SCRIPT_PATH = /home/gitcode/web/git.zx2c4.com
 CGIT_DATA_PATH = $(CGIT_SCRIPT_PATH)
-CGIT_CONFIG = /etc/cgitrc
-CACHE_ROOT = /var/cache/cgit
-prefix = /usr
+CGIT_CONFIG = /home/gitcode/web/cgit/cgitrc
+CACHE_ROOT = /home/gitcode/web/cgit/cache
+prefix = /home/gitcode/web/cgit/
 libdir = $(prefix)/lib
-filterdir = $(libdir)/cgit/filters
+filterdir = /home/gitcode/web/text-filters
 docdir = $(prefix)/share/doc/cgit
 htmldir = $(docdir)
 pdfdir = $(docdir)

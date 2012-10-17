@@ -1,0 +1,6 @@
+# FreeBSD-specific Paths
+LDFLAGS = -L/usr/local/lib 
+CFLAGS = -I/usr/local/include 
+prefix = /usr/local
+NEEDS_LIBICONV = yes
+GIT_OPTIONS = prefix=/usr/local

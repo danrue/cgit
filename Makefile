@@ -49,6 +49,10 @@ ifeq ($(uname_O),Cygwin)
 	NEEDS_LIBICONV = YesPlease
 endif
 
+ifeq ($(uname_S),FreeBSD)
+	include cgit.conf.freebsd
+endif
+
 #
 # Let the user override the above settings.
 #
